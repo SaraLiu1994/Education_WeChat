@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<decorators defaultdir="/WEB-INF/pages/includes">
+    <excludes>
+        <pattern>../index.html</pattern>
+        <pattern>../login.html</pattern>
+        <pattern>../signup.html</pattern>
+    </excludes>
+    <decorator name="base" page="base.ftl">
+    	<pattern>/starsea/*</pattern>
+    </decorator>
+</decorators>
